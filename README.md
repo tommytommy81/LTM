@@ -7,6 +7,6 @@ In main there are 3 files:
 - build...m : read files extracted from BS and tranform then to ft_struct to run stats. Ideally must be run only once if everything is setup correctly.
 - CLUSTER_stat: compute pairwise cluster statistics in the time-freq domain
 
-In the folder "subroutine" there are lower level batch and functions.
+In the folder "subroutine" there are lower level batch scripts and functions.
 
 This is only work in progress, so bugs are expected to come, and comments to blossom...
