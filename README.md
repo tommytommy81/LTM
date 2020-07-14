@@ -1,5 +1,4 @@
 # LTM
-
 Main scripts for Sep's project (and Alicia, with some modifications) on the associative memory task in sEEG.
 
 In main there are 3 files:
@@ -8,5 +7,7 @@ In main there are 3 files:
 - CLUSTER_stat: compute pairwise cluster statistics in the time-freq domain
 
 In the folder "subroutine" there are lower level batch scripts and functions.
+
+Requirements: Fieldtrip toolbox version 2019 or later.
 
 This is only work in progress, so bugs are expected to come, and comments to blossom...
