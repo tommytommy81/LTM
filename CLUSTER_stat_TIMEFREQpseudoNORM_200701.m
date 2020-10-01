@@ -190,9 +190,9 @@ for Njobs = 1
                 plot_conditions_separately % subplot of the induced response
                 
                 if session < 3
-                    saveas(gcf, [ folderfiles_save_PICS  sessionname '_' figurename '.bmp'])
+                    saveas(gcf, [ folderfiles_save_PICS  sessionname '_Njob' num2str(Njobs) '_' figurename '.png'])
                 else % not possible
-                    saveas(gcf, [ folderfiles_save_RESP_PICS  sessionname '_' figurename '.bmp'])
+                    saveas(gcf, [ folderfiles_save_RESP_PICS  sessionname '_Njob' num2str(Njobs) '_' figurename '.png'])
                 end
                 
                 close all
@@ -210,11 +210,11 @@ for Njobs = 1
                     TF_stat_plot
                     set(gcf, 'position', get(0, 'screensize'))
                     if session < 3
-                        savingname = [ folderfiles_save_PICS  sessionname '_cl_' num2str(cl) '_' figurename ];
+                        savingname = [ folderfiles_save_PICS  sessionname '_Njob' num2str(Njobs) '_cl_' num2str(cl) '_' figurename ];
                     else
-                        savingname = [ folderfiles_save_PICS_RESP  sessionname '_cl_' num2str(cl) '_' figurename ];
+                        savingname = [ folderfiles_save_PICS_RESP  sessionname '_Njob' num2str(Njobs) '_cl_' num2str(cl) '_' figurename ];
                     end
-                    saveas(gcf, [ savingname '.bmp'])
+                    saveas(gcf, [ savingname '.png'])
                     save([ savingname '.mat'],'stat')
                     close all
                     
