@@ -3,7 +3,7 @@
 % % % % % % % % % CLUSTER_stat_TIMEFREQpseudoNORM_200701
 
 HDD_krasniy         = 'F:\'
-mainfolder          = 'C:\Users\Tom\Google Drive\__PC_HSE\code\_GitHub\LTM\main 200706\'
+mainfolder          = 'C:\Users\Tom\Google Drive\__PC_HSE\code\_GitHub\LTM\'
 mainfolder_data     = [HDD_krasniy 'Tommaso\_DATA\MOSCOW\pirogov\Associative memory task\']
 folder_with_matfile = [HDD_krasniy 'Tommaso\_DATA\MOSCOW\pirogov\Associative memory task\']
 ft_folder           = 'C:\Users\Tom\Google Drive\__PC_HSE\Matlab Toolbox\FIELDTRIP\fieldtrip-20190202\'
