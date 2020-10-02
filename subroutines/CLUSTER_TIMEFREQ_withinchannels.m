@@ -125,7 +125,7 @@ for cl = 1:length(cluster)
             end
             set(gcf, 'position', get(0, 'screensize'))
             figure_name = ['elem  cluster' num2str(cl) ' subj' num2str(id) ' ch' num2str(ch)  ' session' num2str(session)   ];
-            saveas(gcf, [ folderfiles_save_PICS  '\' figure_name '.pnggit'])
+            saveas(gcf, [ folderfiles_save_PICS  '\' figure_name '.png'])
             close all
             
             
